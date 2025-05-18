@@ -1,1 +1,9 @@
-Atividade 1 da disciplina Programacao-C. Elaborar resumo da aula do dia 11/03 e apresentar 03 (três) programas na linguagem C, com estrutura sequencial. Devem ser postados no repositório GITHUB
+# Repositório de Atividades - Curso Análise e Desenvolvimento de Sistemas
+
+Este repositório contém exercícios e projetos desenvolvidos durante o curso de **Análise e Desenvolvimento de Sistemas**.
+
+## 📂 Estrutura do Repositório
+Os arquivos estão organizados por disciplina e atividade.
+
+# 👤 Autor
+Desenvolvido por Deusinete Dutra
