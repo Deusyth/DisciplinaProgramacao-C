@@ -1,0 +1,15 @@
+#include <stdio.h>
+ //Programa para converter quilômetros em milhas
+
+int main() {
+    float km, milhas;
+    
+    printf("Digite a distância em quilômetros: ");
+    scanf("%f", &km);
+    
+    milhas = km * 0.621371;
+    
+    printf("A distância em milhas é: %.2f\n", milhas);
+    
+    return 0;
+}
