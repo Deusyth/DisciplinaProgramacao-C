@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+// Programa para calcular o preço final com imposto
+
+int main() {
+    float precoInicial, imposto, precoFinal;
+    
+    printf("Digite o preço inicial do produto: ");
+    scanf("%f", &precoInicial);
+    
+    printf("Digite a taxa de imposto (em %): ");
+    scanf("%f", &imposto);
+    
+    precoFinal = precoInicial + (precoInicial * imposto / 100);
+    
+    printf("O preço final com imposto é: %.2f\n", precoFinal);
+    
+    return 0;
+}
