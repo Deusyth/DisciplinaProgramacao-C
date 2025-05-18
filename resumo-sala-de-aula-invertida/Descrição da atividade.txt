@@ -1,1 +1,0 @@
-Resumo da aula do dia 11/03, apresentar 3 programas na linguagem C com estrutura sequencial.
