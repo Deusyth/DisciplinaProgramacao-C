@@ -1,8 +1,8 @@
 #include <stdio.h>
-//calcular a área de uma circunferência
 
 int main() {
     //calcular a área de uma circunferência
+
     const float pi = 3.14159;
     float raio, area;
     printf("digite o valor do raio: ");
