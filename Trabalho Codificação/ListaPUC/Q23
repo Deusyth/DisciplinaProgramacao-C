@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+ //Habitantes
+
 int main() {
     char sexo;           // 'M' ou 'F' para masculino ou feminino
     char corOlhos;       // 'A' para azul, 'V' para verde, 'C' para castanho
