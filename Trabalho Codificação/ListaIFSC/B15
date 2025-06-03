@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    // questao 15 da lista UFSC
+    // declaração das variaveis
+    float tempo, velocidade; 
+    float distancia, litros_usados;
+    
+    // entrada de dados
+    printf("digite o tempo gasto na viagem: ");
+    scanf("%f", &tempo);
+    printf("digite a velocidada media em (km/h): ");
+    scanf("%f", &velocidade);
+    
+    // calculos
+    distancia = tempo * velocidade;
+    litros_usados = distancia / 12;
+    
+    // Saída dos resultados
+   printf("velocidade media: %.2f km/h\n", velocidade);
+   printf("tempo gasto na viagem: %.2f horas\n", tempo);
+   printf("distancia percorrida: %.2f km\n", distancia);
+   printf("quantidade de litros de gasolina:: %.2f litros\n", litros_usados);
+   
+    
+      return 0;
+}
