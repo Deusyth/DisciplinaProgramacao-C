@@ -1,4 +1,6 @@
 #include <stdio.h>
+ 
+//Eleicoes
 
 int main() {
     int voto = -1;
