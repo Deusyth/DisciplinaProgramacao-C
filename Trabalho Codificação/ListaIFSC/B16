@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    // questao 16 da lista UFSC
+    
+      int A, B, temp;
+
+    // Lê os valores de A e B
+    printf("Digite o valor de A: ");
+    scanf("%d", &A);
+    printf("Digite o valor de B: ");
+    scanf("%d", &B);
+
+    // Realiza a troca utilizando uma variável temporária
+    temp = A;
+    A = B;
+    B = temp;
+
+    // Exibe os valores trocados
+    printf("Após a troca:\n");
+    printf("A = %d\n", A);
+    printf("B = %d\n", B);
+
+
+    return 0;
+}
