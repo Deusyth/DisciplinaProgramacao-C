@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    
+    char nome [30], sobrenome[30],nome_completo[60];
+    
+    // Leitura do nome
+    printf("digite seu nome: ");
+    scanf("%s", &nome);
+    
+    // Leitura do sobrenome
+    printf("digite o seu sobrenome: ");
+    scanf("%s", &sobrenome);
+    
+    // Concatenação do nome com o sobrenome
+    strcpy(nome_completo, nome);       // Copia o nome para nome_completo
+    strcat(nome_completo, " ");        // Adiciona um espaço
+    strcat(nome_completo, sobrenome);  // Adiciona o sobrenome
+    
+    // Apresentação do nome completo
+    printf("nome completo: %s\n", nome_completo);
+
+    return 0;
+}
