@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    // questão 19 da lista IFSC
+    
+    int x, quadradox, cubox;
+
+    printf("Digite um numero inteiro para x: ");
+    scanf("%d", &x);
+    
+    quadradox = x * x;
+    cubox = x * x * x;
+    
+    printf("o valor do quadrado de x e:: %d\n", quadradox);
+    printf("o valor do cubo de x e:: %d\n", cubox);
+
+    return 0;
+}
