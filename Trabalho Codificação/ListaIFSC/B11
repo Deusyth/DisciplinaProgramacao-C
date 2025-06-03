@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    // questao 11 da lista UFSC
+    float HT, VH, PD; // Horas Trabalhadas, Valor Hora, Percentual de Desconto
+    float SB, SL, TD; // Salário Bruto, Total de Desconto, Salário Líquido
+    // entrada de dados
+    printf("informe a quantidade de horas trabalhadas: ");
+    scanf("%f", &HT);
+    printf("informe o valor da hora de trabalho: ");
+    scanf("%f", &VH);
+    printf("informe o percentual de desconto (%%): ");
+    scanf("%f", &PD);
+    // calculos
+    SB = HT*VH;
+    TD = (PD/100)*SB;
+    SL = SB - TD;
+    // Saída dos resultados
+    printf("o valor das horas trabalhas: %.2f\n", HT);
+    printf("o valor do salario bruto:R$ %.2f\n", SB);
+    printf("o valor do desconto:R$ %.2f\n", TD);
+    printf("o valor do salari liquido:R$ %.2f\n", SL);
+    
+      return 0;
+}
