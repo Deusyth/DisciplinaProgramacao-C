@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-\\  Impressão de Números
+// Impressão de Números
 
 int main()
 {   int x;
