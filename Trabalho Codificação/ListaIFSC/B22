@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    // questão 22 da lista IFSC
+    
+    float val1, val2, media;
+
+    printf("Digite um numero para val1: ");
+    scanf("%f", &val1);
+    printf("Digite um numero para val2: ");
+    scanf("%f", &val2);
+    
+    media = (val1 + val2) / 2;
+    
+    printf("a media dos valores e:: %.2f\n", media);
+   
+    return 0;
+}
