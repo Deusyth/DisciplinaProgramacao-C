@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    // questao 12 da lista UFSC
+    float F, C; // declaração das variaveis
+    
+    // entrada de dados
+    printf("informe a temperatura em Celsius: ");
+    scanf("%f", &C);
+    
+    // calculos
+    F = (9 * C + 160) / 5;
+   
+    // Saída dos resultados
+    printf("a temperatura em Fahrenheit: %.2f\n", F);
+   
+          return 0;
+}
