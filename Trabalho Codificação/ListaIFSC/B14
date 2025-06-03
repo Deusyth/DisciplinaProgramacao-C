@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+       // questao 14 da lista UFSC
+   
+   // declaração das variaveis
+    const float pi = 3.14159;
+    float raio, altura, volume;
+    
+    // entrada de dados
+    printf("informe o valor do raio: ");
+    scanf("%f", &raio);
+    printf("informe o valor da altura: ");
+    scanf("%f", &altura);
+    
+    // calculo
+    volume = 3.14159 * ((raio * raio) * altura);
+   
+    // Saída dos resultados
+    printf("o volume da lata de oleo é: %.2f\n", volume);
+
+    
+      return 0;
+}
