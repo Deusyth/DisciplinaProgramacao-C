@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    
+    int n1, n2, soma;
+    
+    // Ler um numero inteiro
+    printf("digite um numero inteiro: ");
+    scanf("%i", &n1);
+    
+    //Ler segundo numero inteiro
+    printf("digite outro numero inteiro: ");
+    scanf("%i", &n2);
+    
+    // Cálculo da soma
+    soma = n1+n2;
+    
+    //Exibi resultado
+    printf("a soma de dois numeros inteiros é: %i", soma);
+
+    return 0;
+}
