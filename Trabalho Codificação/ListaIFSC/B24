@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+float velocidade_kmh, velocidade_ms;
+
+// Leitura da velocidade em km/h
+printf("Digite a velocidade do veículo em km/h: ");
+scanf("%f", &velocidade_kmh);
+
+// Conversão para m/s
+velocidade_ms = velocidade_kmh / 3.6;
+
+// Impressão da velocidade em m/s
+printf("A velocidade do veículo em m/s é: %.2f\n", velocidade_ms);
+
+return 0;
+}
