@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+    int G[13], R[13], acertos, num_apostador;
+
+    printf("Digite o gabarito (13 valores entre 1 e 3):\n");
+    for (int i = 0; i < 13; i++) {
+        scanf("%d", &G[i]);
+    }
+
+    while (1) {
+        printf("\nDigite o número do apostador (0 para sair): ");
+        scanf("%d", &num_apostador);
+        if (num_apostador == 0) break;
+
+        printf("Digite as respostas do apostador %d:\n", num_apostador);
+        for (int i = 0; i < 13; i++) {
+            scanf("%d", &R[i]);
+        }
+
+        acertos = 0;
+        for (int i = 0; i < 13; i++) {
+            if (R[i] == G[i]) {
+                acertos++;
+            }
+        }
+
+        printf("Apostador %d teve %d acertos", num_apostador, acertos);
+        if (acertos == 13) {
+            printf(" - GANHADOR, PARABÉNS!");
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
