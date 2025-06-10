@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    int n, i;
+    float a1, r, termo, soma = 0;
+
+    printf("Digite o numero de termos (n): ");
+    scanf("%d", &n);
+
+    printf("Digite o primeiro termo (a1): ");
+    scanf("%f", &a1);
+
+    printf("Digite a razao (r): ");
+    scanf("%f", &r);
+
+    termo = a1;
+    printf("Termos da progressao aritmetica:\n");
+    for (i = 1; i <= n; i++) {
+        printf("%.2f ", termo);
+        soma += termo;
+        termo += r;
+    }
+    printf("\nSoma dos termos: %.2f\n", soma);
+
+    return 0;
+}
