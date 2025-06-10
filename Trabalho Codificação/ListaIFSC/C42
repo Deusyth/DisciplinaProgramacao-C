@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    char nome[50];
+    float preco, descontoPercentual, precoComDesconto;
+    float total = 0;
+    int i;
+
+    for (i = 1; i <= 4; i++) {
+        printf("Artigo %d - Nome: ", i);
+        getchar();  // Limpa buffer do teclado
+        fgets(nome, sizeof(nome), stdin);
+        printf("Preco do artigo %d: ", i);
+        scanf("%f", &preco);
+        printf("Percentual de desconto (0 a 100): ");
+        scanf("%f", &descontoPercentual);
+
+        precoComDesconto = preco * (1 - descontoPercentual / 100);
+        total += precoComDesconto;
+
+        printf("Nome: %sPreco: R$ %.2f\nPreco com desconto: R$ %.2f\n\n", nome, preco, precoComDesconto);
+    }
+
+    printf("Total a pagar: R$ %.2f\n", total);
+
+    return 0;
+}
