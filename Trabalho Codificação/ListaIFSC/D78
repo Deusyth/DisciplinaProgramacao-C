@@ -1,0 +1,53 @@
+#include <stdio.h>
+
+void ordenar_crescente(float *x, float *y, float *z) {
+    float temp;
+    if (*x > *y) { temp = *x; *x = *y; *y = temp; }
+    if (*y > *z) { temp = *y; *y = *z; *z = temp; }
+    if (*x > *y) { temp = *x; *x = *y; *y = temp; }
+}
+
+void ordenar_decrescente(float *x, float *y, float *z) {
+    float temp;
+    if (*x < *y) { temp = *x; *x = *y; *y = temp; }
+    if (*y < *z) { temp = *y; *y = *z; *z = temp; }
+    if (*x < *y) { temp = *x; *x = *y; *y = temp; }
+}
+
+int main() {
+    int I;
+    float A, B, C, maior;
+
+    printf("Digite I, A, B, C: ");
+    scanf("%d %f %f %f", &I, &A, &B, &C);
+
+    printf("Valores lidos: %.2f %.2f %.2f\n", A, B, C);
+
+    switch(I) {
+        case 1: // ordem crescente
+            ordenar_crescente(&A, &B, &C);
+            printf("Ordem crescente: %.2f %.2f %.2f\n", A, B, C);
+            break;
+        case 2: // ordem decrescente
+            ordenar_decrescente(&A, &B, &C);
+            printf("Ordem decrescente: %.2f %.2f %.2f\n", A, B, C);
+            break;
+        case 3:
+            maior = A;
+            if (B > maior) maior = B;
+            if (C > maior) maior = C;
+
+            // Coloca maior no meio
+            if (maior == A)
+                printf("%.2f %.2f %.2f\n", B, A, C);
+            else if (maior == B)
+                printf("%.2f %.2f %.2f\n", A, B, C);
+            else
+                printf("%.2f %.2f %.2f\n", A, C, B);
+            break;
+        default:
+            printf("Valor de I invalido.\n");
+    }
+
+    return 0;
+}
