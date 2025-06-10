@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int anos, meses, dias, totalDias;
+
+    printf("Digite a idade (anos meses dias): ");
+    scanf("%d %d %d", &anos, &meses, &dias);
+
+    totalDias = anos * 360 + meses * 30 + dias;
+
+    printf("A pessoa ja viveu %d dias.\n", totalDias);
+
+    return 0;
+}
