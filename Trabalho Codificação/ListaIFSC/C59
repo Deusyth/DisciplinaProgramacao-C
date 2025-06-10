@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &num);
+
+    if (num == 0) {
+        printf("O numero é zero.\n");
+    } else {
+        if (num % 2 == 0) {
+            printf("O numero é par e ");
+        } else {
+            printf("O numero é impar e ");
+        }
+
+        if (num > 0) {
+            printf("positivo.\n");
+        } else {
+            printf("negativo.\n");
+        }
+    }
+
+    return 0;
+}
