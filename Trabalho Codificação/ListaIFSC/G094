@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int A, B, modulo;
+
+    for (int i = 0; i < 10; i++) {
+        printf("Digite A e B: ");
+        scanf("%d %d", &A, &B);
+        if (B != 0) {
+            modulo = A % B;
+            printf("Modulo = %d\n", modulo);
+        } else {
+            printf("Divisão por zero!\n");
+        }
+    }
+
+    return 0;
+}
