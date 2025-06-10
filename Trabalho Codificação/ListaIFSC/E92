@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int N;
+    float A = 0.0;
+
+    printf("Digite o valor de N: ");
+    scanf("%d", &N);
+
+    for (int i = 1; i <= N; i++) {
+        A += (float)N / i;
+    }
+
+    printf("Valor de A: %.2f\n", A);
+    return 0;
+}
