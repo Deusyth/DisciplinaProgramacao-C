@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    float valor, total;
+    int opcao;
+
+    printf("Digite o valor da venda: ");
+    scanf("%f", &valor);
+
+    printf("Condicao de pagamento:\n");
+    printf("1-Venda a Vista\n2-Venda a Prazo 30 dias\n3-Venda a Prazo 60 dias\n");
+    printf("4-Venda a Prazo 90 dias\n5-Venda com cartao de debito\n6-Venda com cartao de credito\n");
+    printf("Escolha a opcao: ");
+    scanf("%d", &opcao);
+
+    switch(opcao) {
+        case 1: total = valor * 0.9; break;       // 10% desconto
+        case 2: total = valor * 0.95; break;      // 5% desconto
+        case 3: total = valor; break;              // preço normal
+        case 4: total = valor * 1.05; break;      // 5% acréscimo
+        case 5: total = valor * 0.92; break;      // 8% desconto
+        case 6: total = valor * 0.93; break;      // 7% desconto
+        default:
+            printf("Opcao invalida.\n");
+            return 0;
+    }
+
+    printf("Valor final da venda: R$ %.2f\n", total);
+
+    return 0;
+}
