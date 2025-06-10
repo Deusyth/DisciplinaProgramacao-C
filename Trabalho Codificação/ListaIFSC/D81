@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+    char letra;
+
+    printf("Digite uma letra: ");
+    scanf(" %c", &letra);
+    letra = tolower(letra);
+
+    if (letra >= 'a' && letra <= 'z') {
+        if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
+            printf("Vogal\n");
+        } else {
+            printf("Consoante\n");
+        }
+    } else {
+        printf("Nao e uma letra valida\n");
+    }
+
+    return 0;
+}
