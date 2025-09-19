@@ -1,9 +1,19 @@
-# Repositório de Atividades - Curso Análise e Desenvolvimento de Sistemas
+Este repositório reúne as atividades desenvolvidas na disciplina **Programação em C**, parte do curso de **Análise e Desenvolvimento de Sistemas**. Aqui estão incluídos exercícios de codificação, resumos de aula introdutória.
 
-Este repositório contém exercícios e projetos desenvolvidos durante o curso de **Análise e Desenvolvimento de Sistemas**.
+## 🧠 Atividades de Codificação
 
-## 📂 Estrutura do Repositório
-Os arquivos estão organizados por disciplina e atividade.
+A pasta `Codificacao/` contém os exercícios práticos propostos em sala de aula, com foco em:
 
-# 👤 Autor
-Desenvolvido por Deusinete Dutra
+- Estrutura básica de programas em C
+- Tipos de dados e operadores
+- Estruturas de controle (if, switch, loops)
+- Funções e modularização
+- Vetores e matrizes
+- Manipulação de arquivos
+
+Cada arquivo `.c` está nomeado conforme o número da questão e inclui comentários explicativos para facilitar o entendimento.
+
+## 📝 Resumos de Aula
+
+A pasta `Resumo-Sala-de-Aula/` contém os principais tópicos abordados em sala referente a aula do dia 03 
+
