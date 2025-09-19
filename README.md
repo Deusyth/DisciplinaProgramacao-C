@@ -15,5 +15,5 @@ Cada arquivo `.c` está nomeado conforme o número da questão e inclui comentá
 
 ## 📝 Resumos de Aula
 
-A pasta `Resumo-Sala-de-Aula/` contém os principais tópicos abordados em sala referente a aula do dia 03 
+A pasta `Resumo-Sala-de-Aula/` contém os principais tópicos abordados em sala referente a aula do dia 11 de março  - Introdução aos Algoritmos e Conceitos Básicos da Computação e exercício de codificação
 
