@@ -1,4 +1,6 @@
 Este repositório reúne as atividades desenvolvidas na disciplina **Programação em C**, parte do curso de **Análise e Desenvolvimento de Sistemas**. Aqui estão incluídos exercícios de codificação, resumos de aula introdutória.
+Prof.: Heleno
+Insituição: Uniruy
 
 ## 🧠 Atividades de Codificação
 
